@@ -1,0 +1,182 @@
+FATAL  | wrapper  | 2019/12/16 19:17:28 | OpenSCManager failed - Отказано в доступе. (0x5)
+STATUS | wrapper  | 2019/12/16 19:17:32 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/12/16 19:17:32 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/16 19:17:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/16 19:17:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/16 19:17:33 | 
+INFO   | jvm 1    | 2019/12/16 19:17:33 | 
+INFO   | jvm 1    | 2019/12/16 19:17:33 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           could not be loaded:
+INFO   | jvm 1    | 2019/12/16 19:17:33 |             C:\apache-activemq-5.15.10\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           Reported cause:
+INFO   | jvm 1    | 2019/12/16 19:17:33 |             C:\apache-activemq-5.15.10\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2019/12/16 19:17:33 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2019/12/16 19:17:33 | 
+INFO   | jvm 1    | 2019/12/16 19:17:33 | Java Runtime: Oracle Corporation 1.8.0_40 C:\java-se-8u40-ri\jre
+INFO   | jvm 1    | 2019/12/16 19:17:33 |   Heap sizes: current=15872k  free=11905k  max=1013632k
+INFO   | jvm 1    | 2019/12/16 19:17:33 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=PVwPO4jKJAcsK2tb -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=12180 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/12/16 19:17:33 | Extensions classpath:
+INFO   | jvm 1    | 2019/12/16 19:17:33 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/12/16 19:17:33 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/12/16 19:17:33 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/12/16 19:17:33 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/12/16 19:17:33 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/12/16 19:17:33 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/12/16 19:17:33 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@135973b: startup date [Mon Dec 16 19:17:33 MSK 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/12/16 19:17:34 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | PListStore:[C:\apache-activemq-5.15.10\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-R2NOO3V-56327-1576513056309-0:1) is starting
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Listening for connections at: tcp://DESKTOP-R2NOO3V:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Listening for connections at: amqp://DESKTOP-R2NOO3V:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Listening for connections at: stomp://DESKTOP-R2NOO3V:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Listening for connections at: mqtt://DESKTOP-R2NOO3V:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@188bf7e{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Listening for connections at ws://DESKTOP-R2NOO3V:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-R2NOO3V-56327-1576513056309-0:1) started
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb only has 23641 mb of usable space. - resetting to maximum available disk space: 23641 mb
+INFO   | jvm 1    | 2019/12/16 19:17:36 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\apache-activemq-5.15.10\bin\win64\..\..\data only has 23641 mb of usable space. - resetting to maximum available disk space: 23641 mb
+INFO   | jvm 1    | 2019/12/16 19:17:37 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/12/16 19:17:37 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/12/16 19:18:03 |  WARN | Transport Connection to: tcp://127.0.0.1:56366 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 19:27:01 |  WARN | Transport Connection to: tcp://127.0.0.1:56825 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 19:30:30 |  WARN | Transport Connection to: tcp://127.0.0.1:57078 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 19:45:52 |  WARN | Transport Connection to: tcp://127.0.0.1:57807 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 19:50:28 |  WARN | Transport Connection to: tcp://127.0.0.1:58186 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 19:52:05 |  WARN | Transport Connection to: tcp://127.0.0.1:58387 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:23:45 |  WARN | Transport Connection to: tcp://127.0.0.1:59973 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:25:54 |  WARN | Transport Connection to: tcp://127.0.0.1:60054 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:27:17 |  WARN | Transport Connection to: tcp://127.0.0.1:60188 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:30:16 |  WARN | Transport Connection to: tcp://127.0.0.1:60435 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:31:15 |  WARN | Transport Connection to: tcp://127.0.0.1:60637 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:34:24 |  WARN | Transport Connection to: tcp://127.0.0.1:60808 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 20:49:42 |  WARN | Transport Connection to: tcp://127.0.0.1:61511 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 21:53:26 |  WARN | Transport Connection to: tcp://127.0.0.1:64891 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 21:56:29 |  WARN | Transport Connection to: tcp://127.0.0.1:64955 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 21:58:40 |  WARN | Transport Connection to: tcp://127.0.0.1:65267 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/16 22:06:34 |  WARN | Transport Connection to: tcp://127.0.0.1:49261 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2019/12/17 21:30:34 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/12/17 21:30:34 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/17 21:30:35 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/17 21:30:35 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/17 21:30:35 | 
+INFO   | jvm 1    | 2019/12/17 21:30:35 | 
+INFO   | jvm 1    | 2019/12/17 21:30:35 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           could not be loaded:
+INFO   | jvm 1    | 2019/12/17 21:30:35 |             C:\apache-activemq-5.15.10\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           Reported cause:
+INFO   | jvm 1    | 2019/12/17 21:30:35 |             C:\apache-activemq-5.15.10\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2019/12/17 21:30:35 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2019/12/17 21:30:35 | 
+INFO   | jvm 1    | 2019/12/17 21:30:35 | Java Runtime: Oracle Corporation 1.8.0_40 C:\java-se-8u40-ri\jre
+INFO   | jvm 1    | 2019/12/17 21:30:35 |   Heap sizes: current=15872k  free=11702k  max=1013632k
+INFO   | jvm 1    | 2019/12/17 21:30:35 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Yhya_ZFYPirxzl7z -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1548 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/12/17 21:30:35 | Extensions classpath:
+INFO   | jvm 1    | 2019/12/17 21:30:35 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/12/17 21:30:35 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/12/17 21:30:35 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/12/17 21:30:35 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/12/17 21:30:35 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/12/17 21:30:35 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/12/17 21:30:36 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a52b0f: startup date [Tue Dec 17 21:30:36 MSK 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/12/17 21:30:37 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/12/17 21:30:37 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2019/12/17 21:30:37 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/12/17 21:30:37 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2019/12/17 21:30:37 |  INFO | PListStore:[C:\apache-activemq-5.15.10\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/12/17 21:30:37 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-R2NOO3V-56737-1576607437737-0:1) is starting
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Listening for connections at: tcp://DESKTOP-R2NOO3V:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Listening for connections at: amqp://DESKTOP-R2NOO3V:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Listening for connections at: stomp://DESKTOP-R2NOO3V:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Listening for connections at: mqtt://DESKTOP-R2NOO3V:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@1075c32{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Listening for connections at ws://DESKTOP-R2NOO3V:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-R2NOO3V-56737-1576607437737-0:1) started
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb only has 22199 mb of usable space. - resetting to maximum available disk space: 22199 mb
+INFO   | jvm 1    | 2019/12/17 21:30:38 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\apache-activemq-5.15.10\bin\win64\..\..\data only has 22199 mb of usable space. - resetting to maximum available disk space: 22199 mb
+INFO   | jvm 1    | 2019/12/17 21:30:39 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/12/17 21:30:39 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+STATUS | wrapper  | 2019/12/18 00:17:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2019/12/18 00:17:56 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/18 00:17:58 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/18 00:17:58 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/18 00:17:58 | 
+INFO   | jvm 1    | 2019/12/18 00:17:58 | 
+INFO   | jvm 1    | 2019/12/18 00:17:58 | WARNING - Unable to load the Wrapper's native library 'wrapper.dll'.
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           The file is located on the path at the following location but
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           could not be loaded:
+INFO   | jvm 1    | 2019/12/18 00:17:58 |             C:\EAlabs\apache-activemq-5.15.10\bin\win64\..\..\bin\win64\wrapper.dll
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           Please verify that the file is readable by the current user
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           and that the file has not been corrupted in any way.
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           One common cause of this problem is running a 32-bit version
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           of the Wrapper with a 64-bit version of Java, or vica versa.
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           This is a 32-bit JVM.
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           Reported cause:
+INFO   | jvm 1    | 2019/12/18 00:17:58 |             C:\EAlabs\apache-activemq-5.15.10\bin\win64\wrapper.dll: Can't load AMD 64-bit .dll on a IA 32-bit platform
+INFO   | jvm 1    | 2019/12/18 00:17:58 |           System signals will not be handled correctly.
+INFO   | jvm 1    | 2019/12/18 00:17:58 | 
+INFO   | jvm 1    | 2019/12/18 00:17:58 | Java Runtime: Oracle Corporation 1.8.0_40 C:\java-se-8u40-ri\jre
+INFO   | jvm 1    | 2019/12/18 00:17:58 |   Heap sizes: current=15872k  free=11726k  max=1013632k
+INFO   | jvm 1    | 2019/12/18 00:17:58 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=xPBtme4D0lBD_vN4 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5888 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2019/12/18 00:17:58 | Extensions classpath:
+INFO   | jvm 1    | 2019/12/18 00:17:58 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2019/12/18 00:17:58 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2019/12/18 00:17:58 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2019/12/18 00:17:58 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2019/12/18 00:17:58 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2019/12/18 00:18:07 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2019/12/18 00:18:07 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@10b4e41: startup date [Wed Dec 18 00:18:07 MSK 2019]; root of context hierarchy
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\EAlabs\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | PListStore:[C:\EAlabs\apache-activemq-5.15.10\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-R2NOO3V-55135-1576617489441-0:1) is starting
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Listening for connections at: tcp://DESKTOP-R2NOO3V:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Listening for connections at: amqp://DESKTOP-R2NOO3V:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Listening for connections at: stomp://DESKTOP-R2NOO3V:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Listening for connections at: mqtt://DESKTOP-R2NOO3V:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/18 00:18:09 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2019/12/18 00:18:10 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2019/12/18 00:18:11 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@12fc141{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  INFO | Listening for connections at ws://DESKTOP-R2NOO3V:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  INFO | Connector ws started
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  INFO | Apache ActiveMQ 5.15.10 (localhost, ID:DESKTOP-R2NOO3V-55135-1576617489441-0:1) started
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\EAlabs\apache-activemq-5.15.10\bin\win64\..\..\data\kahadb only has 20626 mb of usable space. - resetting to maximum available disk space: 20626 mb
+INFO   | jvm 1    | 2019/12/18 00:18:12 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\EAlabs\apache-activemq-5.15.10\bin\win64\..\..\data only has 20626 mb of usable space. - resetting to maximum available disk space: 20626 mb
+INFO   | jvm 1    | 2019/12/18 00:18:13 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2019/12/18 00:18:13 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2019/12/18 00:22:35 |  WARN | Transport Connection to: tcp://127.0.0.1:55136 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2019/12/18 00:23:45 |  WARN | Transport Connection to: tcp://127.0.0.1:55385 failed: java.net.SocketException: Connection reset

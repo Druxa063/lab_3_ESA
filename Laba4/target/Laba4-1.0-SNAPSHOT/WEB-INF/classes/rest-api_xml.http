@@ -1,0 +1,194 @@
+
+GET http://localhost:8082/rest/groups
+Accept: application/xml
+
+<> 2019-12-15T064434.200.json
+<> 2019-12-15T063715.200.json
+<> 2019-12-15T063708.200.json
+<> 2019-12-15T063702.200.json
+<> 2019-12-15T063522.200.json
+<> 2019-12-15T063509.200.json
+<> 2019-12-15T063350.200.json
+<> 2019-12-15T063235.200.json
+<> 2019-12-15T063202.200.json
+<> 2019-12-15T063136.200.json
+<> 2019-12-15T063047.200.json
+<> 2019-12-15T062708.200.json
+<> 2019-12-15T062337.200.json
+
+###
+
+POST http://localhost:8082/rest/createGroup
+Content-Type: application/xml
+
+<group>
+    <id>128afe27-1982-45ad-8488-1eafe00155fc</id>
+    <name>Name</name>
+</group>
+
+<> 2019-12-15T063706.200.json
+<> 2019-12-15T063232.200.json
+<> 2019-12-15T063207.500.json
+<> 2019-12-15T063158.500.json
+<> 2019-12-15T063106.400.html
+###
+
+DELETE http://localhost:8082/rest/deleteGroup?id=128afe27-1982-45ad-8488-1eafe00155fc
+Content-Type: application/xml
+
+<> 2019-12-15T063334.500.json
+
+
+
+###
+
+PUT http://localhost:8082/rest/groupsUpdate
+Content-Type: application/xml
+
+<group>
+    <id>858afe27-1982-45ad-8488-1eafe00155fc</id>
+    <name>changed</name>
+</group>
+
+<> 2019-12-15T064429.200.json
+<> 2019-12-15T063518.200.json
+<> 2019-12-15T063505.200.json
+
+###
+GET http://localhost:8082/rest/lessonsByGroup?id=858afe27-1982-45ad-8488-1eafe00155fc
+Accept: application/xml
+
+<> 2019-12-15T064547.200.json
+
+###
+
+GET http://localhost:8082/rest/lessons
+Accept: application/xml
+
+<> 2019-12-15T065149.200.json
+<> 2019-12-15T065041.200.json
+<> 2019-12-15T064935.200.json
+<> 2019-12-15T064742.200.json
+<> 2019-12-15T064615.200.json
+
+###
+
+GET http://localhost:8082/rest/lessonsByTeacher?id=554afe27-1982-45ad-8488-1eafe00155fc
+Accept: application/xml
+
+<> 2019-12-15T064646.200.json
+
+###
+
+POST http://localhost:8082/rest/createLesson
+Content-Type: application/xml
+
+<lesson>
+        <id>828afe27-1982-45ad-8488-1eafe00155fc</id>
+        <name>Java</name>
+        <startTime>2011-12-15T18:44:29.186244</startTime>
+        <group>
+            <id>858afe27-1982-45ad-8488-1eafe00155fc</id>
+            <name>changed</name>
+        </group>
+        <teacher>
+            <id>554afe27-1982-45ad-8488-1eafe00155fc</id>
+            <firstName>first name</firstName>
+            <lastName>last name</lastName>
+            <position>position</position>
+        </teacher>
+</lesson>
+
+<> 2019-12-15T064930.200.json
+<> 2019-12-15T064749.400.json
+<> 2019-12-15T064736.400.json
+
+###
+
+DELETE http://localhost:8082/rest/deleteLesson?id=828afe27-1982-45ad-8488-1eafe00155fc
+Content-Type: application/xml
+
+
+###
+
+
+PUT http://localhost:8082/rest/lessonsUpdate
+Content-Type: application/xml
+
+<lesson>
+    <id>888afe27-1982-45ad-8488-1eafe00155fc</id>
+    <name>Changed</name>
+    <startTime>2012-12-15T18:44:29.186244</startTime>
+    <group>
+        <id>858afe27-1982-45ad-8488-1eafe00155fc</id>
+        <name>changed</name>
+    </group>
+    <teacher>
+        <id>554afe27-1982-45ad-8488-1eafe00155fc</id>
+        <firstName>first name</firstName>
+        <lastName>last name</lastName>
+        <position>position</position>
+    </teacher>
+</lesson>
+
+<> 2019-12-15T065143.200.json
+
+###
+
+GET http://localhost:8082/rest/teachers
+Accept: application/xml
+
+<> 2019-12-15T065722.200.json
+<> 2019-12-15T065501.200.json
+<> 2019-12-15T065415.200.json
+<> 2019-12-15T065310.500.json
+<> 2019-12-15T065232.500.json
+
+###
+
+POST http://localhost:8082/rest/createTeacher
+Content-Type: application/xml
+
+<teacher>
+    <id>151afe27-1982-45ad-8488-1eafe00155fc</id>
+    <firstName>first</firstName>
+    <lastName>last</lastName>
+    <position>position</position>
+</teacher>
+
+<> 2019-12-15T065617.200.json
+<> 2019-12-15T065458.200.json
+
+###
+
+DELETE http://localhost:8082/rest/deleteTeacher?id=151afe27-1982-45ad-8488-1eafe00155fc
+Content-Type: application/xml
+
+###
+
+PUT http://localhost:8082/rest/teachersUpdate
+Content-Type: application/xml
+
+<teacher>
+    <id>554afe27-1982-45ad-8488-1eafe00155fc</id>
+    <firstName>name</firstName>
+    <lastName>last</lastName>
+    <position>position</position>
+</teacher>
+
+
+<> 2019-12-15T065715.200.json
+<> 2019-12-15T065659.404.json
+
+###
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc81594f-be6d-4706-a60c-058cfe7499c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/controllers/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/services/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/services/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/services/LessonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/services/LessonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/services/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/Laba2New-1.0-SNAPSHOT/WEB-INF/classes/ru/services/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/classes/ru/controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/classes/ru/controllers/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/CleanerJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/CleanerJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/LessonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/LessonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/classes/ru/services/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba2New/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba2New/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1V93jV30kGlbCUPuHAVYnHbeOIL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc81594f-be6d-4706-a60c-058cfe7499c1" name="Default Changelist" comment="" />
+      <created>1576651644231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576651644231</updated>
+      <workItem from="1576651735655" duration="479000" />
+      <workItem from="1576669881338" duration="147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

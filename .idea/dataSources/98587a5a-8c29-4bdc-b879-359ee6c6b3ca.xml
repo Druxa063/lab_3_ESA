@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12401</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="partytask">
+      <ObjectId>16394</ObjectId>
+    </database>
+    <role id="4" parent="1" name="party-task-app">
+      <ObjectId>16780</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="5" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="6" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="7" parent="1" name="user">
+      <ObjectId>16393</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="8" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2019-12-18.23:00:36.367</IntrospectionTimestamp>
+      <IntrospectionStateNumber>2964</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="9" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <sequence id="14" parent="8" name="global_seq">
+      <ObjectId>28758</ObjectId>
+      <StateNumber>2903</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="15" parent="8" name="hibernate_sequence">
+      <ObjectId>28720</ObjectId>
+      <StateNumber>2882</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="16" parent="8" name="clazz">
+      <ObjectId>28794</ObjectId>
+      <StateNumber>2963</StateNumber>
+    </table>
+    <table id="17" parent="8" name="dept">
+      <ObjectId>28760</ObjectId>
+      <StateNumber>2905</StateNumber>
+    </table>
+    <table id="18" parent="8" name="emp">
+      <ObjectId>28769</ObjectId>
+      <StateNumber>2905</StateNumber>
+    </table>
+    <table id="19" parent="8" name="lesson">
+      <ObjectId>28799</ObjectId>
+      <StateNumber>2964</StateNumber>
+    </table>
+    <table id="20" parent="8" name="logger">
+      <ObjectId>28783</ObjectId>
+      <StateNumber>2906</StateNumber>
+    </table>
+    <table id="21" parent="8" name="teacher">
+      <ObjectId>28804</ObjectId>
+      <StateNumber>2964</StateNumber>
+    </table>
+    <column id="22" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>uuid|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2960</StateNumber>
+      <TypeId>2950</TypeId>
+    </column>
+    <column id="23" parent="16" name="count_of_people">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2960</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="24" parent="16" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2960</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="25" parent="16" name="clazz_pkey">
+      <ObjectId>28797</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="26" parent="16" name="clazz_pkey">
+      <ObjectId>28798</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>clazz_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="17" name="deptno">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2904</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="28" parent="17" name="dname">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2904</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="29" parent="17" name="loc">
+      <Position>3</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2904</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="30" parent="17" name="dept_pkey">
+      <ObjectId>28767</ObjectId>
+      <ColNames>deptno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="17" name="dept_pkey">
+      <ObjectId>28768</ObjectId>
+      <ColNames>deptno</ColNames>
+      <UnderlyingIndexName>dept_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="32" parent="18" name="empno">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2905</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="33" parent="18" name="ename">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2905</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="34" parent="18" name="deptno">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+      <StateNumber>2905</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="35" parent="18" name="emp_pkey">
+      <ObjectId>28776</ObjectId>
+      <ColNames>empno</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="36" parent="18" name="emp_pkey">
+      <ObjectId>28777</ObjectId>
+      <ColNames>empno</ColNames>
+      <UnderlyingIndexName>emp_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="37" parent="18" name="emp_deptno_fkey">
+      <ObjectId>28778</ObjectId>
+      <ColNames>deptno</ColNames>
+      <RefTableId>28760</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>dept</RefTableName>
+      <RefKeyName>dept_pkey</RefKeyName>
+      <RefColNames>deptno</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="38" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>uuid|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2961</StateNumber>
+      <TypeId>2950</TypeId>
+    </column>
+    <column id="39" parent="19" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>2961</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="40" parent="19" name="start_time">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>2961</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="41" parent="19" name="group_id">
+      <Position>4</Position>
+      <DataType>uuid|0</DataType>
+      <StateNumber>2961</StateNumber>
+      <TypeId>2950</TypeId>
+    </column>
+    <column id="42" parent="19" name="teacher_id">
+      <Position>5</Position>
+      <DataType>uuid|0</DataType>
+      <StateNumber>2961</StateNumber>
+      <TypeId>2950</TypeId>
+    </column>
+    <index id="43" parent="19" name="lesson_pkey">
+      <ObjectId>28802</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="44" parent="19" name="lesson_pkey">
+      <ObjectId>28803</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>lesson_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="45" parent="19" name="fk5yfcyqcvg6334qoa1akjm7k2f">
+      <ObjectId>28812</ObjectId>
+      <ColNames>group_id</ColNames>
+      <RefTableId>28794</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>clazz</RefTableName>
+      <RefKeyName>clazz_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="46" parent="19" name="fk9yhaoqrjxt5gwmn6icp1lf35n">
+      <ObjectId>28817</ObjectId>
+      <ColNames>teacher_id</ColNames>
+      <RefTableId>28804</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>teacher</RefTableName>
+      <RefKeyName>teacher_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="47" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2906</StateNumber>
+      <DefaultExpression>nextval(&apos;global_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="48" parent="20" name="message">
+      <Position>2</Position>
+      <DataType>varchar|0</DataType>
+      <StateNumber>2906</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="49" parent="20" name="date">
+      <Position>3</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>2906</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="50" parent="20" name="logger_pkey">
+      <ObjectId>28791</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="20" name="logger_pkey">
+      <ObjectId>28792</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>logger_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="52" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>uuid|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2962</StateNumber>
+      <TypeId>2950</TypeId>
+    </column>
+    <column id="53" parent="21" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>2962</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="54" parent="21" name="last_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>2962</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="55" parent="21" name="position">
+      <Position>4</Position>
+      <DataType>varchar(255)|0</DataType>
+      <StateNumber>2962</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="56" parent="21" name="teacher_pkey">
+      <ObjectId>28810</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="21" name="teacher_pkey">
+      <ObjectId>28811</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>teacher_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

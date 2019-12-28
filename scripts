@@ -1,0 +1,70 @@
+-- Table: public.clazz
+
+-- DROP TABLE public.clazz;
+
+CREATE TABLE public.clazz
+(
+    id uuid NOT NULL,
+    count_of_people integer,
+    name character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT clazz_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.clazz
+    OWNER to postgres;
+
+
+-- Table: public.lesson
+
+-- DROP TABLE public.lesson;
+
+CREATE TABLE public.lesson
+(
+    id uuid NOT NULL,
+    name character varying(255) COLLATE pg_catalog."default",
+    start_time timestamp without time zone,
+    group_id uuid,
+    teacher_id uuid,
+    CONSTRAINT lesson_pkey PRIMARY KEY (id),
+    CONSTRAINT fk5yfcyqcvg6334qoa1akjm7k2f FOREIGN KEY (group_id)
+        REFERENCES public.clazz (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID,
+    CONSTRAINT fk9yhaoqrjxt5gwmn6icp1lf35n FOREIGN KEY (teacher_id)
+        REFERENCES public.teacher (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.lesson
+    OWNER to postgres;
+
+-- Table: public.teacher
+
+-- DROP TABLE public.teacher;
+
+CREATE TABLE public.teacher
+(
+    id uuid NOT NULL,
+    first_name character varying(255) COLLATE pg_catalog."default",
+    last_name character varying(255) COLLATE pg_catalog."default",
+    "position" character varying(255) COLLATE pg_catalog."default",
+    CONSTRAINT teacher_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.teacher
+    OWNER to postgres;

@@ -1,0 +1,8 @@
+ru\entities\EmailHistory.class
+ru\services\EmailMessageCreator.class
+ru\repositories\EmailHistoryRepository.class
+ru\ReceiveMessage.class
+ru\MailReceiver.class
+ru\entities\History.class
+ru\repositories\HistoryRepository.class
+ru\services\MessageCreatorImpl.class
